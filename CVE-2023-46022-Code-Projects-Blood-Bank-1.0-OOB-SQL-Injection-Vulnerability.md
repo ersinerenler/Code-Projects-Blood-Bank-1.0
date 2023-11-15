@@ -12,6 +12,9 @@
 + Vulnerable File: /delete.php
 + Parameter Name: bid
 + Attack Type: Local
+# References:
++ https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46022
++ https://nvd.nist.gov/vuln/detail/CVE-2023-46022
 # Description
 + The 'bid' parameter in the /delete.php file of Code-Projects Blood Bank V1.0 is susceptible to Out-of-Band SQL Injection. This vulnerability stems from inadequate protection mechanisms, allowing attackers to exploit the parameter using Burp Collaborator to initiate OOB SQL injection attacks. Through this technique, an attacker can potentially extract sensitive information from the databases.
 
